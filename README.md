@@ -1,2 +1,2 @@
-# KUDOS---Front-End
-Front-end code of the platform KUDOS
+# KUDOS frontend
+This repository is for the client side of Kudos.
