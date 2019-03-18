@@ -1,9 +1,9 @@
 import React from 'react';
-import LeftBar from './leftbar';
-import {Form, Button} from 'react-bootstrap';
 
 import './App.css';
-import Login from "./login";
+import Login from "./containers/login/login";
+import TopBar from "./navbar/top-bar/top-bar";
+import Footer from "./components/footer";
 
 /**
  * @return {boolean}
@@ -11,6 +11,9 @@ import Login from "./login";
 export default function App() {
 
   return (
-      <Login/>
+      <div>
+        <h1>Hmm</h1>
+        <Footer/>
+      </div>
   );
 }
